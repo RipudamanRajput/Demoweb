@@ -1,0 +1,22 @@
+.industry-verticlas--container {
+    padding: 5.5rem 3.5rem;
+}
+.industry-verticlas--container li {
+    list-style: none;
+}
+ul.industry-verticlas--list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+li.industry-verticlas--item {
+    flex: 0 0 33%;
+    min-height: 200px;
+}
+li.industry-verticlas--item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

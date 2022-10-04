@@ -1,7 +1,7 @@
 import React from "react";
 import img from '../../../../Assets/img/cool-background.png';
 import './style.css';
-import {Youtube, UserCheck, User, Server, Film , PhoneCall, Menu} from 'react-feather'
+import {Youtube, UserCheck, User, Server, Film , PhoneCall} from 'react-feather'
 
 function Topbar () {
     return(
