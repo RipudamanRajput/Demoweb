@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Menu } from "react-feather";
 import Topbar from "./Topbar/Topbar";
 import './Topbar/style.css';
-import logo from '../../../Assets/img/logo/logo-removebg-preview.png';
+import logo from '../../../Assets/img/logo/logo.png';
 
 function Header() {
     const [show, setshow] = useState(false)
@@ -10,7 +10,7 @@ function Header() {
         <>
         <span className="header-logo">
             <span className="logo-container">
-                <img src={logo} width={60}/>
+                <img src={logo} width={100}/>
             </span>
         </span>
        <span 
