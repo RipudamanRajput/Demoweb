@@ -9,7 +9,6 @@ span.header-logo {
 .logo-container {
     background: #583900;
     display: block;
-    padding: 0.5rem;
 }
 span.logo-container::after {
     position: absolute;
@@ -48,7 +47,7 @@ span.logo-container::before {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 9;
+    z-index: 99;
     padding-bottom: 25px;
 }
 .top-bar-menus {
@@ -153,5 +152,19 @@ span.logo-container::before {
     }
     body .top-bar-servicemenuconiner > div {
         margin-top: 0.5rem;
+    }
+    body span.header-logo {
+        left: 10px;
+    }
+    span.logo-container img {
+        width: 80px;
+    }
+    span.logo-container::before {
+        transform: rotate(225deg);
+        left: -58px;
+    }
+    span.logo-container::after {
+        transform: rotate(138deg);
+        right: -61px;
     }
 }

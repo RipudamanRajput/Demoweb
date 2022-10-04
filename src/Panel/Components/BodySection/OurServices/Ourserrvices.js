@@ -15,7 +15,7 @@ function OurServices () {
         arrows:true,
         speed: 500,
         slidesToShow: 4.5,
-        slidesToScroll: 1.5,
+        slidesToScroll: 1,
         responsive: [
             {
             breakpoint:1024,
