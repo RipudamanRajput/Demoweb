@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Demoweb/static/css/main.727e8b01.css",
+    "main.js": "/Demoweb/static/js/main.3b07fdde.js",
+    "static/js/787.dc7f4fac.chunk.js": "/Demoweb/static/js/787.dc7f4fac.chunk.js",
+    "static/media/StockSnap_1WY4L3TRRC.jpg": "/Demoweb/static/media/StockSnap_1WY4L3TRRC.cfd820adf9c4710a69f9.jpg",
+    "static/media/cool-background.png": "/Demoweb/static/media/cool-background.86ff1222ff035fc9638f.png",
+    "static/media/Peralta-Regular.ttf": "/Demoweb/static/media/Peralta-Regular.766e92ce72661b179572.ttf",
+    "index.html": "/Demoweb/index.html",
+    "main.727e8b01.css.map": "/Demoweb/static/css/main.727e8b01.css.map",
+    "main.3b07fdde.js.map": "/Demoweb/static/js/main.3b07fdde.js.map",
+    "787.dc7f4fac.chunk.js.map": "/Demoweb/static/js/787.dc7f4fac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.727e8b01.css",
+    "static/js/main.3b07fdde.js"
+  ]
+}
