@@ -1,0 +1,20 @@
+.hero-banner {
+    position: relative;
+}
+.hero-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Mainfont';
+    transform: translate(-50%, -50%);
+}
+h1.hero-section--tittleheading {
+    margin: 0;
+    font-size: 4.5rem;
+}
+p.hero-section--subheading {
+    margin: 0;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+}

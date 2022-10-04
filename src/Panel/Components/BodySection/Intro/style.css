@@ -1,0 +1,26 @@
+.intro-section--card {
+    background: #3f3f3f;
+    max-width: 550px;
+    border-radius: 15px;
+    padding: 2.2rem 1.8rem;
+}
+.intro-section--card.mission {
+    margin-left: auto;
+}
+.intro-section--container {
+    padding: 5.5rem 3.5rem;
+}
+h2.intro-section--titel {
+    position: relative;
+    margin-bottom: 15px;
+}
+h2.intro-section--titel::after {
+    position: absolute;
+    content: "";
+    left: 8%;
+    bottom: -2px;
+    height: 1px;
+    width: 100px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+}
