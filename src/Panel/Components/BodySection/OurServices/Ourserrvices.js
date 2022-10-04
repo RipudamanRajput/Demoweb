@@ -35,33 +35,35 @@ function OurServices () {
         <>
         <div className="ourservices--section">
             <div className="ourservices--container">
-                <h2 className="section-title">Our services</h2>
-                <Slider {...settings}>
-                    <div>
+                <h2  className="section-title">Our services</h2>
+                <div className="ourservice-list" data-aos="zoom-in-left">
+                <Slider {...settings} >
+                    <div className="ourservice-item">
                         <img src={video} width={250}/>
                         <h3>Video Analytics</h3>
                     </div>
-                    <div>
+                    <div className="ourservice-item">
                         <img src={testing} width={250}/>
                         <h3>User Testing</h3>
                     </div>
-                    <div>
+                    <div className="ourservice-item">
                         <img src={staff} width={250}/>
                         <h3>Recruitment & Staffing</h3>
                     </div>
-                    <div>
+                    <div className="ourservice-item">
                         <img src={development} width={250}/>
                         <h3>Development Solutions</h3>
                     </div>
-                    <div>
+                    <div className="ourservice-item">
                         <img src={AV} width={250}/>
                         <h3>AV Services</h3>
                     </div>
-                    <div>
+                    <div className="ourservice-item">
                         <img src={contact} width={250}/>
                         <h3>Contact Centre Solutions</h3>
                     </div>
                 </Slider>
+                </div>
             </div>
         </div>
         </>

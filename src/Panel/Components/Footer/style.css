@@ -8,7 +8,7 @@
     align-items: center;
 }
 h2.footer-section--title {
-    font-family: 'Mainfont';
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-bottom: 0;
     font-size: 2.2rem;
@@ -20,12 +20,12 @@ button.aboutus-link {
     font-weight: 700;
     border-radius: 5px;
     background: rgb(255 255 255 / 98%);
-    font-family: 'Mainfont';
+    font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
     position: relative;
 }
 .footer-content p {
-    font-family: 'Mainfont';
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 5px;
     margin-bottom: 25px;
 }

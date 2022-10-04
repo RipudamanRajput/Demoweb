@@ -5,7 +5,10 @@ import {Youtube, UserCheck, User, Server, Film , PhoneCall} from 'react-feather'
 
 function Topbar () {
     return(
-        <div className="top-bar" style={{backgroundImage:`url(${img})`}}>
+        <div
+        data-aos="fade-left" 
+         className="top-bar"
+          style={{backgroundImage:`url(${img})`}}>
             
             <div className="top-bar-menus">
                 <div className="tob-bar--sidemenus">

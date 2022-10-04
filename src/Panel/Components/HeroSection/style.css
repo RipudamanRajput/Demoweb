@@ -3,12 +3,16 @@
 }
 .hero-title {
     position: absolute;
+    width: 100%;
     top: 50%;
     left: 50%;
-    font-family: 'Mainfont';
+    font-family: Arial, Helvetica, sans-serif;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 h1.hero-section--tittleheading {
+    width: 100%;
+    text-align: center;
     margin: 0;
     font-size: 4.5rem;
 }

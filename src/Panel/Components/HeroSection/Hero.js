@@ -5,7 +5,10 @@ import './style.css';
  function Hero () {
     return(
         <>
-        <div className="Hero-section">
+        <div 
+        data-aos="fade-up" 
+        data-aos-once="false"
+        className="Hero-section">
             <div className="hero-banner">
                 <img src={heroimg} height={700} width={'100%'}/>
                 <div className="hero-title">
