@@ -36,7 +36,7 @@ function OurServices () {
         <div className="ourservices--section">
             <div className="ourservices--container">
                 <h2  className="section-title">Our services</h2>
-                <div className="ourservice-list" data-aos="zoom-in-left">
+                <div className="ourservice-list">
                 <Slider {...settings} >
                     <div className="ourservice-item">
                         <img src={video} width={250}/>

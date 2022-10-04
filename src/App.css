@@ -11,6 +11,7 @@ body {
   background: linear-gradient(45deg, black, #000000cc);
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
+  position: relative;
 }
 span.top-bar--toggler {
   position: fixed;
@@ -18,7 +19,7 @@ span.top-bar--toggler {
   top: 0;
   background-color: orange;
   padding: 1rem;
-  z-index: 999;
+  z-index: 9899999;
 }
 .mt-15{
   margin-top: 15px !important;

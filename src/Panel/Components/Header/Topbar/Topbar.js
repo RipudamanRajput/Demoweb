@@ -22,28 +22,28 @@ function Topbar () {
                 <div className="top-bar--srvicemenu">
                     <div className="top-bar-servicemenuconiner">
                         <div className="top-bar--servicelist">
-                            <Youtube size={70}/>
-                            <h3 className="service-menu-title">Video Analytics</h3>
+                            <Youtube size={50}/>
+                            <h3 className="service-menu-title mt-15">Video Analytics</h3>
                         </div>
                         <div className="top-bar--servicelist">
-                            <UserCheck size={70}/>
-                            <h3 className="service-menu-title">User Testing</h3>
+                            <UserCheck size={50}/>
+                            <h3 className="service-menu-title mt-15">User Testing</h3>
                         </div>
                         <div className="top-bar--servicelist">
-                            <User size={70}/>
-                            <h3 className="service-menu-title">Recruitment & Staffing</h3>
+                            <User size={50}/>
+                            <h3 className="service-menu-title mt-15">Recruitment & Staffing</h3>
                         </div>
                         <div className="top-bar--servicelist">
-                            <Server size={70}/>
-                            <h3 className="service-menu-title">Development Solutions</h3>
+                            <Server size={50}/>
+                            <h3 className="service-menu-title mt-15">Development Solutions</h3>
                         </div>
                         <div className="top-bar--servicelist">
-                            <Film size={70}/>
-                            <h3 className="service-menu-title">AV Services</h3>
+                            <Film size={50}/>
+                            <h3 className="service-menu-title mt-15">AV Services</h3>
                         </div>
                         <div className="top-bar--servicelist">
-                            <PhoneCall size={70}/>
-                            <h3 className="service-menu-title">Contact Centre Solutions</h3>
+                            <PhoneCall size={50}/>
+                            <h3 className="service-menu-title mt-15">Contact Centre Solutions</h3>
                         </div>
                     </div>
                 </div>

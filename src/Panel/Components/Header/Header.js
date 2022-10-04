@@ -10,7 +10,7 @@ function Header() {
          className="top-bar--toggler"
          onClick={()=>setshow(!show)}
          >
-                <Menu size={20}/>
+            <Menu size={20}/>
         </span>
         {show &&  <Topbar/>}
         </>

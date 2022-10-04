@@ -1,15 +1,21 @@
 
+@keyframes animatebackground {
+    0%   {background-position: center;}
+    25%  {background-position: left;}
+    50%  {background-position: top;}
+    75%  {background-position: right;}
+    100% {background-position: bottom;}
+  }
 .top-bar {
-    /* height: 600px; */
+    height: fit-content;
     width: 100%;
     color: #fff;
-}
-.top-bar {
+    animation: animatebackground 100s linear infinite;
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
     z-index: 9;
+    padding-bottom: 25px;
 }
 .top-bar-menus {
     display: flex;
@@ -21,7 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: fit-content;
 }
 .tob-bar--sidemenus ul li {
     list-style: none;
@@ -60,11 +66,6 @@
 @media only screen and (min-width:320px) and (max-width:768px){
     .top-bar-menus {
         flex-direction: column;
-        overflow: scroll;
-    }
-    .top-bar-servicemenuconiner {
-        margin-left: -1.6rem;
-        margin-top: -1.6rem;
     }
     .top-bar-servicemenuconiner {
         max-width: 100%;
@@ -74,7 +75,49 @@
         padding-left: 1rem;
     }
     .top-bar {
-        height: 100%;
-        overflow-y: scroll;
+        height: fit-content;
+        padding-bottom: 15px;
+    }
+    body li.industry-verticlas--item {
+        flex: 0 0 50%;
+    }
+    .hero-banner img {
+        height: 500px;
+    }
+}
+@media only screen and (min-width:320px) and (max-width:435px){
+    body h1.hero-section--tittleheading {
+        font-size: 2rem;
+    }
+    body p.hero-section--subheading {
+        font-size: 1rem;
+    }
+    .hero-banner img {
+        object-fit: cover;
+        height: 400px;
+    }
+    body .intro-section--container,
+    body .industry-verticlas--container,
+    body .ourservices--container
+     {
+        padding: 3.5rem 2.5rem;
+    }
+    body h2.section-title {
+        font-size: 2rem;
+    }
+    body h2.intro-section--titel::after {
+        left: 50px;
+    }
+    body .top-bar--servicelist {
+        flex: 0 0 50%;
+    }
+    body li.industry-verticlas--item {
+        flex: 0 0 100%;
+    }
+    body .tob-bar--sidemenus ul li {
+        padding: 0.5rem 0rem;
+    }
+    body .top-bar-servicemenuconiner > div {
+        margin-top: 0.5rem;
     }
 }
