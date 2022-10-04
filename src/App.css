@@ -3,10 +3,10 @@
   padding: 0;
 }
 
-@font-face {
+/* @font-face {
   font-family: Mainfont;
   src: url(./Assets/Fonts/Peralta-Regular.ttf);
-}
+} */
 body {
   background: linear-gradient(45deg, black, #000000cc);
   color: #fff;
@@ -18,4 +18,23 @@ span.top-bar--toggler {
   background-color: orange;
   padding: 1rem;
   z-index: 999;
+}
+.mt-15{
+  margin-top: 15px !important;
+}
+h2.section-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+h2.section-title::after {
+  position: absolute;
+  content: "";
+  bottom: -15px;
+  left: 50%;
+  height: 2px;
+  transform: translate(-50%, -50%);
+  width: 180px;
+  background: #fff;
 }

@@ -6,6 +6,7 @@ function Intro () {
         <>
             <div className="Intro-section">
                 <div className="intro-section--container">
+                <h2 className="section-title">Our Goals</h2>
                     <div className="intro-section--card vision">
                             <h2 className="intro-section--titel">Vision</h2>
                             <p className="intro-section--description">With a close-knit organized team that

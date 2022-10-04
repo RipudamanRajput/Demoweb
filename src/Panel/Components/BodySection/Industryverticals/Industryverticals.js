@@ -12,30 +12,31 @@ function Industryvertical () {
         <>
         <div className="industry-verticlas--section">
             <div className="industry-verticlas--container">
+                <h2 className="section-title">Our Industry Verticals</h2>
                <ul className="industry-verticlas--list">
                 <li className="industry-verticlas--item">
                     <img src={media} width={100}/>
-                    <h3 className="industry-verticlas--title">Meidia Entertain</h3>
+                    <h3 className="industry-verticlas--title mt-15">Meidia Entertain</h3>
                 </li>
                 <li className="industry-verticlas--item">
                     <img src={medicare} width={100}/>
-                    <h3 className="industry-verticlas--title">Healthcare & Pharma</h3>
+                    <h3 className="industry-verticlas--title mt-15">Healthcare & Pharma</h3>
                 </li>
                 <li className="industry-verticlas--item">
                     <img src={finance} width={100}/>
-                    <h3 className="industry-verticlas--title">Banking & Financial Services</h3>
+                    <h3 className="industry-verticlas--title mt-15">Banking & Financial Services</h3>
                 </li>
                 <li className="industry-verticlas--item">
                     <img src={IT} width={100}/>
-                    <h3 className="industry-verticlas--title">Information technology</h3>
+                    <h3 className="industry-verticlas--title mt-15">Information technology</h3>
                 </li>
                 <li className="industry-verticlas--item">
                     <img src={education} width={100}/>
-                    <h3 className="industry-verticlas--title">Education development</h3>
+                    <h3 className="industry-verticlas--title mt-15">Education development</h3>
                 </li>
                 <li className="industry-verticlas--item">
                     <img src={automobile} width={100}/>
-                    <h3 className="industry-verticlas--title">Automobile</h3>
+                    <h3 className="industry-verticlas--title mt-15">Automobile</h3>
                 </li>
                </ul>
             </div>
