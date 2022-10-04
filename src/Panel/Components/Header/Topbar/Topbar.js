@@ -2,8 +2,10 @@ import React from "react";
 import img from '../../../../Assets/img/cool-background.png';
 import './style.css';
 import {Youtube, UserCheck, User, Server, Film , PhoneCall} from 'react-feather'
+import { useNavigate } from "react-router-dom";
 
 function Topbar () {
+    const history = useNavigate();
     return(
         <div
         data-aos="fade-left" 
@@ -13,10 +15,10 @@ function Topbar () {
             <div className="top-bar-menus">
                 <div className="tob-bar--sidemenus">
                     <ul>
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Policy</li>
-                        <li>Contact Us</li>
+                        <li onClick={()=>{history('/Demoweb')}}>Home</li>
+                        <li onClick={()=>{history('/Demoweb/aboutus')}}>About Us</li>
+                        <li onClick={()=>{history('/Demoweb/Policy')}}>Policy</li>
+                        <li onClick={()=>{history('/Demoweb/Contact')}}>Contact Us</li>
                     </ul> 
                 </div>
                 <div className="top-bar--srvicemenu">
