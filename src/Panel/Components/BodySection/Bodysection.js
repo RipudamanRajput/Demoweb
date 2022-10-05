@@ -4,14 +4,16 @@ import Industryvertical from "./Industryverticals/Industryverticals";
 import Intro from "./Intro/Intro";
 import OurServices from "./OurServices/Ourserrvices";
 
-function Bodylayout () {
-    return(
-    <>
-    <Hero/>
-    <Intro/>
-    <Industryvertical/>
-    <OurServices/>
-    </>
+function Bodylayout() {
+    return (
+        <>
+            <Hero />
+            <div className="main-layout">
+                <Intro />
+                <Industryvertical />
+                <OurServices />
+            </div>
+        </>
     )
 }
 export default Bodylayout;

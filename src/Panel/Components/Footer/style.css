@@ -1,20 +1,38 @@
-
 .footer-section {
-    background: rgb(43 43 43 / 50%);
+    background: linear-gradient(135deg, rgba(129, 21, 255, 0.12290266106442575) 0%, rgba(255, 42, 208, 0.07007352941176472) 11%, rgba(255, 143, 42, 0) 20%);
+    border-radius: 200px 0 0 0;
+    margin-top: 55px;
+    padding-top: 22px;
 }
+
 .footer-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 h2.footer-section--title {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-bottom: 0;
     font-size: 2.2rem;
     margin-top: 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 58.75px;
+    letter-spacing: -5.1px;
+    text-transform: inherit;
+    background: linear-gradient(90deg, rgba(129, 21, 255, 1) 0%, rgba(255, 42, 208, 1) 52%, rgba(255, 143, 42, 1) 100%);
+    -webkit-background-clip: text;
+    color: #000000;
+    -webkit-text-stroke: 4px transparent;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 5px;
 }
+
 button.aboutus-link {
     padding: 1rem 2.2rem;
     transition: 0.5s all;
@@ -25,12 +43,15 @@ button.aboutus-link {
     cursor: pointer;
     position: relative;
 }
+
 .footer-content p {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 5px;
     margin-bottom: 25px;
     text-align: center;
+    font-size: 25px;
 }
+
 .footer-content {
     padding: 3.5rem 1.5rem;
 }

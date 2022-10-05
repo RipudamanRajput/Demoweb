@@ -14,7 +14,7 @@ function OurServices () {
         infinite: true,
         arrows:true,
         speed: 500,
-        slidesToShow: 4.5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         responsive: [
             {

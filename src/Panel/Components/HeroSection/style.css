@@ -11,14 +11,23 @@
     text-align: center;
 }
 h1.hero-section--tittleheading {
-    width: 100%;
     text-align: center;
-    margin: 0;
-    font-size: 4.5rem;
+    font-weight: 700;
+    font-size: 102.75px;
+    letter-spacing: -5.1px;
+    text-transform: inherit;
+    background: linear-gradient(90deg, rgba(129,21,255,1) 0%, rgba(255,42,208,1) 52%, rgba(255,143,42,1) 100%);
+    -webkit-background-clip: text;
+    color: #000000;
+    -webkit-text-stroke: 4px transparent;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 5px;
 }
 p.hero-section--subheading {
     margin: 0;
-    margin-top: 5px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 100;
+    font-family: system-ui;
 }

@@ -5,17 +5,17 @@ import Bodylayout from "./BodySection/Bodysection";
 import { Route, Routes } from "react-router-dom";
 import Aboutus from "./BodySection/AboutUs/Aboutus";
 
-function Components () {
-    return(
+function Components() {
+    return (
         <>
-        <Header/>
-        <Routes>
-            <Route path="/Demoweb" element={<Bodylayout/>}/>
-            <Route path="/Demoweb/aboutus" element={<Aboutus/>}/>
-            <Route path="/Demoweb/Policy" element={<h1>Policy</h1>}/>
-            <Route path="/Demoweb/Contact" element={<h1>Contact Us</h1>}/>
-        </Routes>
-        <Footer/>
+            <Header />
+            <Routes>
+                <Route path="/Demoweb" element={<Bodylayout />} />
+                <Route path="/Demoweb/aboutus" element={<Aboutus />} />
+                <Route path="/Demoweb/Policy" element={<h1>Policy</h1>} />
+                <Route path="/Demoweb/Contact" element={<h1>Contact Us</h1>} />
+            </Routes>
+            <Footer />
         </>
     )
 }

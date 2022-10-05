@@ -11,12 +11,19 @@ ul.industry-verticlas--list {
     flex-wrap: wrap;
 }
 li.industry-verticlas--item {
-    flex: 0 0 33%;
-    min-height: 200px;
-}
-li.industry-verticlas--item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+li.industry-verticlas--item {
+    border: 1px solid #343434;
+    border-radius: 5px;
+    margin-top: 1.6rem;
+    margin-left: 1.6rem;
+}
+li.industry-verticlas--item {
+    min-height: 200px;
+    width: calc(33% - 1.6rem);
 }

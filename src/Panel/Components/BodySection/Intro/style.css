@@ -1,8 +1,9 @@
 .intro-section--card {
-    background: #3f3f3f;
     max-width: 550px;
-    border-radius: 15px;
     padding: 2.2rem 1.8rem;
+}
+.intro-section--card.vision {
+    margin-top: 50px;
 }
 .intro-section--card.mission {
     margin-left: auto;
@@ -14,6 +15,7 @@
 h2.intro-section--titel {
     position: relative;
     margin-bottom: 15px;
+    font-size: 4rem;
 }
 h2.intro-section--titel::after {
     position: absolute;
@@ -23,5 +25,5 @@ h2.intro-section--titel::after {
     height: 1px;
     width: 100px;
     transform: translate(-50%, -50%);
-    background: #fff;
+    background: linear-gradient(90deg, rgba(129,21,255,1) 0%, rgba(255,42,208,1) 50%, rgba(255,143,42,1) 100%);
 }

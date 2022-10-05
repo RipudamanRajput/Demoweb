@@ -8,7 +8,7 @@
   src: url(./Assets/Fonts/Peralta-Regular.ttf);
 } */
 body {
-  background: linear-gradient(45deg, black, #000000cc);
+  background: #000;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
@@ -17,7 +17,7 @@ span.top-bar--toggler {
   position: fixed;
   right: 0;
   top: 0;
-  background-color: orange;
+  background: linear-gradient(90deg, rgba(129,21,255,1) 0%, rgba(255,42,208,1) 50%, rgba(255,143,42,1) 100%);
   padding: 1rem;
   z-index: 9899999;
 }
@@ -29,6 +29,12 @@ h2.section-title {
   font-size: 3rem;
   margin-bottom: 1.5rem;
   position: relative;
+  background: linear-gradient(90deg, rgba(129,21,255,1) 0%, rgba(255,42,208,1) 50%, rgba(255,143,42,1) 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 55px;
 }
 h2.section-title::after {
   position: absolute;
@@ -39,4 +45,8 @@ h2.section-title::after {
   transform: translate(-50%, -50%);
   width: 180px;
   background: #fff;
+}
+.main-layout {
+  max-width: 1360px;
+  margin: 0 auto;
 }

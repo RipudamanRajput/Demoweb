@@ -7,7 +7,7 @@ span.header-logo {
     padding-bottom: 3rem;
 }
 .logo-container {
-    background: #f8e6c4;
+    background: #000;
     display: block;
 }
 span.logo-container::after {
@@ -15,7 +15,7 @@ span.logo-container::after {
     content: "";
     height: 100%;
     width: 100%;
-    background: #f8e6c4;
+    background: #000;
     right: -74px;
     z-index: -1;
     bottom: -14px;
@@ -26,7 +26,7 @@ span.logo-container::before {
     content: "";
     height: 100%;
     width: 100%;
-    background: #f8e6c4;
+    background: #000;
     left: -74px;
     z-index: -1;
     bottom: -14px;

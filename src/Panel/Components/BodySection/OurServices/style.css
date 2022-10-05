@@ -1,18 +1,41 @@
 .ourservices--container {
     padding: 5.5rem 3.5rem;
 }
+
 .slick-slider.slick-initialized {
     padding-top: 20px;
 }
+
 .ourservice-item img {
     height: 250px;
     object-fit: cover;
     margin: 0 auto;
+    border-radius: 50%;
 }
+
 .ourservice-item h3 {
     text-align: center;
     margin-top: 10px;
 }
+
 h3.industry-verticlas--title {
     text-align: center;
+}
+
+.ourservice-item {
+    max-width: fit-content;
+    padding: 20px 20px 30px 20px;
+    background-color: #0C0C0C;
+    transition: 0.5s all;
+    border-radius: 50%;
+    position: relative;
+}
+
+.ourservice-item:hover {
+    transform: scale(1.1);
+    transition: 0.5s all;
+}
+
+.slick-slide.slick-active>div {
+    overflow: hidden;
 }
