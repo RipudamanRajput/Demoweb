@@ -1,0 +1,24 @@
+@media only screen and (min-width: 320px) and (max-width:430px) {
+    body li.industry-verticlas--item {
+        margin-left: 0;
+    }
+
+    body h2.footer-section--title {
+        font-size: 33px;
+        letter-spacing: revert;
+    }
+
+    body .footer-content p {
+        font-size: 17px;
+    }
+
+    body .aboutus-content--container {
+        padding: 0;
+        margin: 0 2.2rem;
+        word-break: break-word;
+    }
+
+    body .page-banner--container {
+        height: 250px;
+    }
+}

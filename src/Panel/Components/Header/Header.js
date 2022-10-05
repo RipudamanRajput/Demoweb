@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Menu } from "react-feather";
+import { Menu, Plus } from "react-feather";
 import Topbar from "./Topbar/Topbar";
 import './Topbar/style.css';
 import logo from '../../../Assets/img/logo/logo.png';
@@ -23,7 +23,7 @@ function Header() {
          className="top-bar--toggler"
          onClick={()=>setshow(!show)}
          >
-            <Menu size={20}/>
+            {show?<Plus style={{transform:"rotate(45deg)"}} size={25}/> :<Menu size={20}/>}
         </span>
         {show &&  <Topbar/>}
         </>
