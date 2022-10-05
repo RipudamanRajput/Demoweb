@@ -4,6 +4,8 @@ import Footer from "./Footer/Footer";
 import Bodylayout from "./BodySection/Bodysection";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Aboutus from "./BodySection/AboutUs/Aboutus";
+import Role from "./BodySection/Roles/Role";
+import Pagenotfound from "./BodySection/pagenotfound/Pagenotfound";
 
 function Components() {
     return (
@@ -12,8 +14,8 @@ function Components() {
                 <Routes>
                     <Route path="/Demoweb" element={<Bodylayout />} />
                     <Route path="Demoweb/aboutus" element={<Aboutus />} />
-                    <Route path="Demoweb/Policy" element={<h1>Policy</h1>} />
-                    <Route path="Demoweb/Contact" element={<h1>Contact Us</h1>} />
+                    <Route path="Demoweb/Roles" element={<Role/>} />
+                    <Route path="Demoweb/Contact" element={<Pagenotfound/>} />
                 </Routes>
             <Footer />
         </>

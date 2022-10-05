@@ -14,7 +14,7 @@ span.header-logo {
     letter-spacing: -5.1px;
     text-transform: inherit;
     background: linear-gradient(90deg, rgb(235 233 233) 0%, rgb(120 120 120) 52%, rgb(255 255 255) 100%);
-    -webkit-background-clip: text;
+    -webkit-background-clip: text !important;
     color: #000000;
     -webkit-text-stroke: 4px transparent;
     width: -moz-fit-content;
@@ -26,6 +26,10 @@ span.header-logo {
     cursor: pointer;
     overflow: hidden;
     position: relative;
+}
+
+.tob-bar--sidemenus ul li.Active {
+    background: linear-gradient(90deg, rgba(129, 21, 255, 1) 0%, rgba(255, 42, 208, 1) 50%, rgba(255, 143, 42, 1) 100%);
 }
 
 .top-bar--servicelist svg {
