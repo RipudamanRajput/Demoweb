@@ -50,3 +50,16 @@ h2.section-title::after {
   max-width: 1360px;
   margin: 0 auto;
 }
+h2.section-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  background: linear-gradient(90deg, rgba(129,21,255,1) 0%, rgba(255,42,208,1) 50%, rgba(255,143,42,1) 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 55px;
+}

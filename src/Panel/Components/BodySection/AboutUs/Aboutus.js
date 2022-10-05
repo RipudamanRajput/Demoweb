@@ -6,7 +6,7 @@ function Aboutus () {
         <>
         <div className="page-banner">
             <div className="page-banner--container">
-                <h1>About Us</h1>
+                <h2 className="section-title">About Us</h2>
             </div>
         </div>
         <div className="aboutus-content--section">
