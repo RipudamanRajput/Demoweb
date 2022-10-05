@@ -11,9 +11,9 @@ function Components() {
             <Header />
             <Routes>
                 <Route path="/Demoweb" element={<Bodylayout />} />
-                <Route path="/Demoweb/aboutus" element={<Aboutus />} />
-                <Route path="/Demoweb/Policy" element={<h1>Policy</h1>} />
-                <Route path="/Demoweb/Contact" element={<h1>Contact Us</h1>} />
+                <Route path="Demoweb/aboutus" element={<Aboutus />} />
+                <Route path="Demoweb/Policy" element={<h1>Policy</h1>} />
+                <Route path="Demoweb/Contact" element={<h1>Contact Us</h1>} />
             </Routes>
             <Footer />
         </>
