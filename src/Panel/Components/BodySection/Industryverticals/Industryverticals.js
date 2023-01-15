@@ -12,7 +12,7 @@ function Industryvertical () {
         <>
         <div className="industry-verticlas--section">
             <div className="industry-verticlas--container">
-                <h2 className="section-title">Me Skills</h2>
+                <h2 className="section-title">My Skills</h2>
                <ul className="industry-verticlas--list">
                 <li data-aos="slide-up" className="industry-verticlas--item">
                     <Node/>
