@@ -6,24 +6,18 @@ function Intro () {
         <>
             <div className="Intro-section">
                 <div className="intro-section--container">
-                <h2 className="section-title">Our Goals</h2>
+                <h2 className="section-title">My Portfolio</h2>
                     <div 
                     data-aos="flip-up" 
                     className="intro-section--card vision">
-                            <h2 className="intro-section--titel">Vision</h2>
-                            <p className="intro-section--description">With a close-knit organized team that
-                            consists of drive, dynamic and talented
-                            professional,our vision is to be one of the
-                            premium hr. service providers.</p>
+                            <h2 className="intro-section--titel">Dropshipers</h2>
+                            <p className="intro-section--description">I've done work on dropshipers apps like bulkupload product from one marketplace to another marketplace with attribute mapping. </p>
                     </div>
                     <div 
                     data-aos="flip-down"
                     className="intro-section--card mission">
-                    <h2 className="intro-section--titel">Mission</h2>
-                            <p className="intro-section--description">With a close-knit organized team that
-                            consists of drive, dynamic and talented
-                            professional, our vision is to be one of
-                            the premium hr. service providers.</p>
+                    <h2 className="intro-section--titel">Order Managementy System</h2>
+                            <p className="intro-section--description">I,ve worked on Order Management system like update status of customized order that provided by customers.</p>
                     </div>
                 </div>
             </div>

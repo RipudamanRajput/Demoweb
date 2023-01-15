@@ -6,7 +6,8 @@ import testing from '../../../../Assets/img/OurServices/ux-indonesia-5QiGvmyJTsc
 import staff from '../../../../Assets/img/OurServices/joao-viegas-IYLL5obdJhY-unsplash.jpg';
 import development from '../../../../Assets/img/OurServices/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg';
 import AV from '../../../../Assets/img/OurServices/emily-lewis-JMVDrEfp9Q0-unsplash.jpg';
-import contact from '../../../../Assets/img/OurServices/berkeley-communications-WEDDt-u3q3o-unsplash.jpg';
+
+import { Alliexpress,Tiktok, Social, Unified, OMS } from "./Projectslogo";
 
 function OurServices () {
     var settings = {
@@ -35,32 +36,28 @@ function OurServices () {
         <>
         <div className="ourservices--section">
             <div className="ourservices--container">
-                <h2  className="section-title">Our services</h2>
+                <h2  className="section-title">Projects & Apps</h2>
                 <div className="ourservice-list">
                 <Slider {...settings} >
                     <div className="ourservice-item">
-                        <img src={video} width={250}/>
-                        <h3>Video Analytics</h3>
+                        <Alliexpress/>
+                        <h3>Alliexpress</h3>
                     </div>
                     <div className="ourservice-item">
-                        <img src={testing} width={250}/>
-                        <h3>User Testing</h3>
+                        <Tiktok/>
+                        <h3>Tiktok</h3>
                     </div>
                     <div className="ourservice-item">
-                        <img src={staff} width={250}/>
-                        <h3>Recruitment & Staffing</h3>
+                        <Social/>
+                        <h3>Social Media feeds</h3>
                     </div>
                     <div className="ourservice-item">
-                        <img src={development} width={250}/>
-                        <h3>Development Solutions</h3>
+                        <Unified/>
+                        <h3>Unified</h3>
                     </div>
                     <div className="ourservice-item">
-                        <img src={AV} width={250}/>
-                        <h3>AV Services</h3>
-                    </div>
-                    <div className="ourservice-item">
-                        <img src={contact} width={250}/>
-                        <h3>Contact Centre Solutions</h3>
+                        <OMS/>
+                        <h3>Order Management System</h3>
                     </div>
                 </Slider>
                 </div>

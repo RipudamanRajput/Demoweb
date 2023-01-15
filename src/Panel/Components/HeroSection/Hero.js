@@ -12,8 +12,10 @@ import './style.css';
             <div className="hero-banner">
                 <img src={heroimg} height={700} width={'100%'}/>
                 <div className="hero-title">
-                    <h1 className="hero-section--tittleheading">Inland	Solutions</h1>
-                    <p className="hero-section--subheading">We connect your path</p>
+                    <h1 className="hero-section--tittleheading">Hi,</h1>
+                    <h1 className="hero-section--tittleheading">I'm Ripu,</h1>
+                    <h1 className="hero-section--tittleheading">Backend developer</h1>
+                    <p className="hero-section--subheading">Backend Developer / Javascript Developer </p>
                 </div>
             </div>
         </div>

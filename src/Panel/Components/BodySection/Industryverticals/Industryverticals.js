@@ -1,42 +1,38 @@
 import React from "react";
 import './style.css';
-import media from '../../../../Assets/img/IndustryVertical/image_2022_10_04T07_26_53_225Z-1.png';
-import medicare from '../../../../Assets/img/IndustryVertical/image_2022_10_04T07_28_01_552Z-1.png';
-import finance from '../../../../Assets/img/IndustryVertical/image_2022_10_04T07_29_11_078Z-1.png';
-import IT from '../../../../Assets/img/IndustryVertical/image_2022_10_04T07_30_00_061Z-1.png';
-import education from '../../../../Assets/img/IndustryVertical/image_2022_10_04T07_30_54_920Z-1.png';
-import automobile from '../../../../Assets/img/IndustryVertical/image_2022_10_04T07_31_53_631Z-1.png';
+// import Node from '../../../../Assets/img/IndustryVertical/nodejs.png';
+// import Mongodb from '../../../../Assets/img/IndustryVertical/Mongodb.png';
+// import JS from '../../../../Assets/img/IndustryVertical/js.png';
+// import php from '../../../../Assets/img/IndustryVertical/php.png';
+// import MySQL from '../../../../Assets/img/IndustryVertical/mysql.png';
+import {Node, Mongodb, JS, Php, Mysql} from './skillsvgs'
 
 function Industryvertical () {
     return(
         <>
         <div className="industry-verticlas--section">
             <div className="industry-verticlas--container">
-                <h2 className="section-title">Our Industry Verticals</h2>
+                <h2 className="section-title">Me Skills</h2>
                <ul className="industry-verticlas--list">
                 <li data-aos="slide-up" className="industry-verticlas--item">
-                    <img src={media} width={100}/>
-                    <h3 className="industry-verticlas--title mt-15">Meidia Entertain</h3>
+                    <Node/>
+                    <h3 className="industry-verticlas--title mt-15">Node</h3>
                 </li>
                 <li data-aos="slide-up" className="industry-verticlas--item">
-                    <img src={medicare} width={100}/>
-                    <h3 className="industry-verticlas--title mt-15">Healthcare & Pharma</h3>
+                    <Mongodb/>
+                    <h3 className="industry-verticlas--title mt-15">MongoDB </h3>
                 </li>
                 <li data-aos="slide-up" className="industry-verticlas--item">
-                    <img src={finance} width={100}/>
-                    <h3 className="industry-verticlas--title mt-15">Banking & Financial Services</h3>
+                    <JS/>
+                    <h3 className="industry-verticlas--title mt-15">Javascript</h3>
                 </li>
                 <li data-aos="slide-up" className="industry-verticlas--item">
-                    <img src={IT} width={100}/>
-                    <h3 className="industry-verticlas--title mt-15">Information technology</h3>
+                    <Php/>
+                    <h3 className="industry-verticlas--title mt-15">Php</h3>
                 </li>
                 <li data-aos="slide-up" className="industry-verticlas--item">
-                    <img src={education} width={100}/>
-                    <h3 className="industry-verticlas--title mt-15">Education development</h3>
-                </li>
-                <li data-aos="slide-up" className="industry-verticlas--item">
-                    <img src={automobile} width={100}/>
-                    <h3 className="industry-verticlas--title mt-15">Automobile</h3>
+                    <Mysql/>
+                    <h3 className="industry-verticlas--title mt-15">MySQL</h3>
                 </li>
                </ul>
             </div>

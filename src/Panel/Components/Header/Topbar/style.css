@@ -5,6 +5,7 @@ span.header-logo {
     z-index: 99;
     overflow: hidden;
     padding-bottom: 3rem;
+    display: none;
 }
 
 .tob-bar--sidemenus ul li {

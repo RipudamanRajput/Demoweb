@@ -19,12 +19,12 @@ function Header() {
                  onClick={()=>history('/Demoweb')}/>
             </span>
         </span>
-       <span 
+       {/* <span 
          className="top-bar--toggler"
          onClick={()=>setshow(!show)}
          >
             {show?<Plus style={{transform:"rotate(45deg)"}} size={25}/> :<Menu size={20}/>}
-        </span>
+        </span> */}
         {show &&  <Topbar/>}
         </>
     )
