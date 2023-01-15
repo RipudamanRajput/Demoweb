@@ -27,7 +27,7 @@ function OurServices () {
                 settings: {slidesToShow : 2}
             },
             {
-                breakpoint:420,
+                breakpoint:425,
                 settings: {slidesToShow : 1}
             },
         ]
