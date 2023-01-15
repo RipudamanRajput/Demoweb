@@ -1,34 +1,27 @@
 {
   "files": {
-    "main.css": "/Demoweb/static/css/main.2c60f7f1.css",
-    "main.js": "/Demoweb/static/js/main.e96800e2.js",
+    "main.css": "/Demoweb/static/css/main.cb1f3c58.css",
+    "main.js": "/Demoweb/static/js/main.4827b67d.js",
     "static/js/787.dc7f4fac.chunk.js": "/Demoweb/static/js/787.dc7f4fac.chunk.js",
     "static/media/sam-mcghee-KieCLNzKoBo-unsplash.jpg": "/Demoweb/static/media/sam-mcghee-KieCLNzKoBo-unsplash.d6c70709a69bb3105945.jpg",
     "static/media/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg": "/Demoweb/static/media/fotis-fotopoulos-DuHKoV44prg-unsplash.41f61d005e89434247f0.jpg",
     "static/media/emily-lewis-JMVDrEfp9Q0-unsplash.jpg": "/Demoweb/static/media/emily-lewis-JMVDrEfp9Q0-unsplash.9d5a735c147fe81aa38a.jpg",
     "static/media/StockSnap_1WY4L3TRRC.jpg": "/Demoweb/static/media/StockSnap_1WY4L3TRRC.cfd820adf9c4710a69f9.jpg",
     "static/media/ux-indonesia-5QiGvmyJTsc-unsplash.jpg": "/Demoweb/static/media/ux-indonesia-5QiGvmyJTsc-unsplash.8a729fc04ac890233d53.jpg",
-    "static/media/berkeley-communications-WEDDt-u3q3o-unsplash.jpg": "/Demoweb/static/media/berkeley-communications-WEDDt-u3q3o-unsplash.dc1c5090eed1cae7958f.jpg",
     "static/media/joao-viegas-IYLL5obdJhY-unsplash.jpg": "/Demoweb/static/media/joao-viegas-IYLL5obdJhY-unsplash.402bb10f645d730e3406.jpg",
     "static/media/cool-background.png": "/Demoweb/static/media/cool-background.86ff1222ff035fc9638f.png",
     "static/media/logo.png": "/Demoweb/static/media/logo.05cd3dfd083c5a85431b.png",
-    "static/media/image_2022_10_04T07_31_53_631Z-1.png": "/Demoweb/static/media/image_2022_10_04T07_31_53_631Z-1.42192ed1711d1af59568.png",
-    "static/media/image_2022_10_04T07_28_01_552Z-1.png": "/Demoweb/static/media/image_2022_10_04T07_28_01_552Z-1.6b8094ef4e0483c0e6f8.png",
-    "static/media/image_2022_10_04T07_26_53_225Z-1.png": "/Demoweb/static/media/image_2022_10_04T07_26_53_225Z-1.04ff0645d3cd5bf5df41.png",
-    "static/media/image_2022_10_04T07_30_00_061Z-1.png": "/Demoweb/static/media/image_2022_10_04T07_30_00_061Z-1.15f2e089bd059c02490a.png",
-    "static/media/image_2022_10_04T07_30_54_920Z-1.png": "/Demoweb/static/media/image_2022_10_04T07_30_54_920Z-1.0699413974809d6657d0.png",
-    "static/media/image_2022_10_04T07_29_11_078Z-1.png": "/Demoweb/static/media/image_2022_10_04T07_29_11_078Z-1.2ecc1ad4ecae903025aa.png",
     "static/media/slick.svg": "/Demoweb/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Demoweb/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Demoweb/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Demoweb/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Demoweb/index.html",
-    "main.2c60f7f1.css.map": "/Demoweb/static/css/main.2c60f7f1.css.map",
-    "main.e96800e2.js.map": "/Demoweb/static/js/main.e96800e2.js.map",
+    "main.cb1f3c58.css.map": "/Demoweb/static/css/main.cb1f3c58.css.map",
+    "main.4827b67d.js.map": "/Demoweb/static/js/main.4827b67d.js.map",
     "787.dc7f4fac.chunk.js.map": "/Demoweb/static/js/787.dc7f4fac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c60f7f1.css",
-    "static/js/main.e96800e2.js"
+    "static/css/main.cb1f3c58.css",
+    "static/js/main.4827b67d.js"
   ]
 }
